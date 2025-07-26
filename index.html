@@ -1,117 +1,118 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jana Store - شنط خرز يدوي</title>
+  <title>Jana Store - شنط لولي يدوية</title>
   <style>
     body {
-      font-family: 'Tajawal', sans-serif;
+      font-family: 'Cairo', sans-serif;
+      background-color: #fff;
       margin: 0;
       padding: 0;
-      background-color: #fff0f5;
       color: #333;
+      direction: rtl;
     }
     header {
-      background-color: #ff69b4;
-      padding: 20px;
+      background-color: #ffb6c1;
+      padding: 1rem;
       text-align: center;
-      color: white;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #fff0f5;
+      text-align: center;
+      padding: 0.5rem;
     }
     nav a {
       margin: 0 10px;
-      color: white;
+      color: #d63384;
       text-decoration: none;
       font-weight: bold;
     }
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 20px;
+    .container {
+      padding: 1rem;
     }
     .product {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      padding: 10px;
+      border: 1px solid #eee;
       border-radius: 10px;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      text-align: center;
     }
     .product img {
       width: 100%;
+      max-width: 300px;
       border-radius: 10px;
     }
-    footer {
-      background-color: #ff69b4;
-      color: white;
-      padding: 20px;
-      text-align: center;
+    .product h2 {
+      color: #c2185b;
     }
-    button {
-      background-color: #ff69b4;
+    .product p {
+      font-size: 1.1rem;
+    }
+    .btn {
+      background-color: #c2185b;
       color: white;
+      padding: 0.5rem 1rem;
       border: none;
-      padding: 10px 20px;
-      border-radius: 20px;
+      border-radius: 5px;
+      font-size: 1rem;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    footer {
+      background-color: #f8bbd0;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Jana Store</h1>
-    <p>تألقي مع شنط الخرز اليدوي</p>
-    <nav>
-      <a href="#home">الرئيسية</a>
-      <a href="#products">المنتجات</a>
-      <a href="#about">من نحن</a>
-      <a href="#contact">تواصل معنا</a>
-    </nav>
-  </header>
-
-  <section id="home">
-    <h2>مرحبًا بكم في Jana Store</h2>
-    <p>هنا الأناقة تلتقي بالإبداع... اكتشفي تشكيلتنا المميزة من شنط الخرز المصنوعة بحب وإتقان.</p>
-    <button>شوفي المجموعة</button>
-  </section>
-
-  <section id="products">
-    <h2>منتجاتنا</h2>
-    <div class="products">
+    <p>تسوق أجمل شنط اللولي اليدوية مع Jana Store!</p>
+  </header>  <nav>
+    <a href="#products">منتجاتنا</a>
+    <a href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">طلب مباشر</a>
+    <a href="#about">من نحن</a>
+  </nav>  <div class="container">
+    <section id="products">
       <div class="product">
-        <img src="https://via.placeholder.com/200x200?text=شنطة+1" alt="شنطة 1">
-        <p>شنطة خرز وردي - 150 جنيه</p>
+        <img src="https://i.imgur.com/J9gPYcM.jpg" alt="شنطة لولي بيضاء">
+        <h2>شنطة لولي بيضاء</h2>
+        <p>مقاس 10 - تشيل موبايل - السعر: 350 جنيه</p>
+        <a class="btn" href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">اطلب الآن</a>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/200x200?text=شنطة+2" alt="شنطة 2">
-        <p>شنطة خرز أبيض وذهبي - 180 جنيه</p>
+        <img src="https://i.imgur.com/Zg8LuWa.jpg" alt="شنطة أطفال">
+        <h2>شنطة أطفال</h2>
+        <p>شنطة مبهجة للأطفال - السعر: 150 جنيه</p>
+        <a class="btn" href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">اطلب الآن</a>
       </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200x200?text=شنطة+3" alt="شنطة 3">
-        <p>شنطة خرز أزرق ملكي - 170 جنيه</p>
-      </div>
-    </div>
-  </section>
+    </section><section id="about">
+  <h2>من نحن</h2>
+  <p>
+    Jana Store هو مشروع شبابي مميز يقدم لكِ شنط لولي يدوية بجودة عالية وشكل أنيق يناسب جميع الأعمار.
+    هدفنا هو تقديم منتج يدوي مصري بأعلى مستوى من الجمال والرقي.
+    تابعينا لتوصلك أحدث العروض: عند شراء شنطتين، هتحصلي على طقم إكسسوارات بناتي هدية 💝
+  </p>
+  <p>
+    للتواصل:
+    <br>📞 01221810864 - 01229612343
+    <br>📱 واتساب: 01229612343
+    <br>🔗 فيسبوك: <a href="https://www.facebook.com/share/16MfkdjTZp/" target="_blank">صفحتنا الرسمية</a>
+    <br>📣 <a href="https://whatsapp.com/channel/0029Vb5xn07EawdvLKvDHp2d" target="_blank">قناة الواتساب</a>
+    | 👥 <a href="https://chat.whatsapp.com/BnTon5avEFpKaCbTJjJC0y?mode=ac_t" target="_blank">جروب العملاء</a>
+  </p>
+</section>
 
-  <section id="about">
-    <h2>من نحن</h2>
-    <p>Jana Store هو مشروع يدوي مصري متخصص في تصميم وتنفيذ شنط خرز فريدة وأنيقة. نؤمن أن كل شنطة هي تحفة فنية تعبّر عن ذوق صاحبتها.</p>
-  </section>
-
-  <section id="contact">
-    <h2>تواصلي معنا</h2>
-    <p>📞 موبايل: 01012345678</p>
-    <p>💬 واتساب: <a href="https://wa.me/201012345678" target="_blank">اضغطي هنا</a></p>
-    <p>📷 فيسبوك: <a href="https://facebook.com/janastore.eg" target="_blank">Jana Store</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Jana Store - كل الحقوق محفوظة</p>
+  </div>  <footer>
+    <p>جميع الحقوق محفوظة &copy; Jana Store 2025</p>
   </footer>
-
 </body>
 </html>
