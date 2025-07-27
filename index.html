@@ -1,116 +1,110 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jana Store</title>
+  <meta charset="UTF-8">
+  <title>Jana Store - شنط لولي وإكسسوارات</title>
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
       direction: rtl;
+      margin: 0;
+      background-color: #fff8f5;
     }
-
     header {
-      background-color: #f8f8f8;
+      background-color: #fddde6;
+      padding: 20px;
       text-align: center;
     }
-
     header img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
+      max-height: 120px;
+      border-radius: 15px;
     }
-
     h1 {
-      color: #e91e63;
-      font-size: 2.5rem;
-      margin-top: 10px;
-    }
-
-    .products {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding: 20px;
-      gap: 20px;
-    }
-
-    .product {
-      border: 1px solid #ddd;
-      padding: 15px;
-      border-radius: 10px;
-      width: 250px;
-      text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .product h2 {
-      color: #333;
-    }
-
-    .product p {
-      font-size: 1.1rem;
-      color: #666;
-    }
-
-    .links {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .links a {
-      display: block;
+      color: #d63384;
       margin: 10px 0;
-      font-size: 1.1rem;
-      color: #0d47a1;
-      text-decoration: none;
     }
-
-    footer {
+    .products {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
       text-align: center;
+    }
+    .product {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .product img {
+      width: 100%;
+      max-height: 220px;
+      border-radius: 10px;
+    }
+    .product h2 {
+      color: #d63384;
+    }
+    .product p {
+      margin: 5px 0;
+    }
+    .offer {
+      background-color: #ffe6f0;
       padding: 10px;
-      background-color: #eee;
-      font-size: 0.9rem;
-      color: #555;
+      border-radius: 10px;
+      margin-top: 10px;
+      color: #c2185b;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #fce4ec;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      line-height: 1.8;
+    }
+    a {
+      color: #d63384;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .products {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="banner.jpg" alt="Jana Store Banner" />
-    <h1>Jana Store - شنط خرز يدوية</h1>
-  </header>
+<header>
+  <img src="https://i.imgur.com/G0XHPbg.jpg" alt="Jana Store Banner">
+  <h1>أهلاً بكم في Jana Store</h1>
+  <p>متخصصون في الشنط اليدوية والإكسسوارات البناتي 💕</p>
+</header>
 
-  <section class="products">
-    <div class="product">
-      <h2>شنطة لولي</h2>
-      <p>السعر: 350 جنيه</p>
-      <p>شنطة أنيقة يدوية مع طقم إكسسوارات هدية</p>
-    </div>
-    <div class="product">
-      <h2>شنطة أطفال</h2>
-      <p>السعر: 150 جنيه</p>
-      <p>شنطة صغيرة مناسبة للأطفال بألوان جذابة</p>
-    </div>
-  </section>
+<section class="products">
+  <div class="product">
+    <img src="https://i.imgur.com/W8CQJld.jpg" alt="شنطة لولي">
+    <h2>شنطة لولي أبيض</h2>
+    <p>السعر: 350 جنيه</p>
+    <p>المقاس: تسع موبايل</p>
+    <div class="offer">🎁 عرض: شنطتين + طقم إكسسوارات هدية</div>
+  </div>
+  
+  <div class="product">
+    <img src="https://i.imgur.com/tZqPZC9.jpg" alt="شنطة أطفال">
+    <h2>شنطة أطفال كيوت</h2>
+    <p>السعر: 150 جنيه</p>
+    <p>شكل لطيف وخامة ممتازة 🎒</p>
+  </div>
+</section>
 
-  <section class="links">
-    <h2>طرق التواصل والطلب</h2>
-    <a href="https://wa.me/201229612343" target="_blank">📞 واتساب: 01229612343</a>
-    <a href="https://facebook.com" target="_blank">📘 فيسبوك Jana Store</a>
-    <a href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">📝 طلب مباشر من هنا</a>
-    <a href="https://chat.whatsapp.com/BnTon5avEFpKaCbTJjJC0y" target="_blank">💬 جروب واتساب</a>
-    <a href="https://whatsapp.com/channel/0029Vb5xn07EawdvLKvDHp2d" target="_blank">📢 قناة واتساب</a>
-  </section>
-
-  <footer>
-    &copy; 2025 Jana Store - جميع الحقوق محفوظة
-  </footer>
+<footer>
+  <p>للطلب المباشر: <a href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">اضغط هنا</a></p>
+  <p>قناة الواتساب: <a href="https://whatsapp.com/channel/0029Vb5xn07EawdvLKvDHp2d" target="_blank">اضغط للمتابعة</a></p>
+  <p>جروب واتساب للتواصل: <a href="https://chat.whatsapp.com/BnTon5avEFpKaCbTJjJC0y?mode=ac_t" target="_blank">انضم الآن</a></p>
+  <p>📞 للتواصل: 01229612343</p>
+</footer>
 
 </body>
 </html>
