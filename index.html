@@ -1,110 +1,84 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Jana Store - شنط لولي وإكسسوارات</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jana Store - شنط لولي وخرز</title>
   <style>
     body {
-      font-family: 'Cairo', sans-serif;
-      direction: rtl;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #fdfdfd;
       margin: 0;
-      background-color: #fff8f5;
+      padding: 0;
+      text-align: center;
+      direction: rtl;
     }
     header {
-      background-color: #fddde6;
-      padding: 20px;
-      text-align: center;
+      background-color: #ff69b4;
+      color: white;
+      padding: 1rem;
     }
-    header img {
-      max-height: 120px;
-      border-radius: 15px;
-    }
-    h1 {
-      color: #d63384;
-      margin: 10px 0;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      padding: 20px;
-      text-align: center;
+    img.banner {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
     }
     .product {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      padding: 15px;
-    }
-    .product img {
-      width: 100%;
-      max-height: 220px;
+      background-color: #fff;
+      margin: 1rem auto;
+      padding: 1rem;
       border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
     }
     .product h2 {
       color: #d63384;
     }
-    .product p {
-      margin: 5px 0;
-    }
-    .offer {
-      background-color: #ffe6f0;
-      padding: 10px;
-      border-radius: 10px;
-      margin-top: 10px;
-      color: #c2185b;
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
       font-weight: bold;
     }
     footer {
-      background-color: #fce4ec;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-      line-height: 1.8;
+      margin-top: 2rem;
+      background-color: #f8f8f8;
+      padding: 1rem;
+      font-size: 14px;
     }
-    a {
-      color: #d63384;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    @media (max-width: 768px) {
-      .products {
-        grid-template-columns: 1fr;
-      }
+    .icons {
+      font-size: 1.5rem;
+      margin: 0.5rem;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <img src="https://i.imgur.com/G0XHPbg.jpg" alt="Jana Store Banner">
-  <h1>أهلاً بكم في Jana Store</h1>
-  <p>متخصصون في الشنط اليدوية والإكسسوارات البناتي 💕</p>
-</header>
+  <header>
+    <h1>أهلاً بكم في Jana Store 💖</h1>
+    <p>متخصصون في شنط لولي وخرز بأجمل التصاميم 💼✨</p>
+  </header>
 
-<section class="products">
-  <div class="product">
-    <img src="https://i.imgur.com/W8CQJld.jpg" alt="شنطة لولي">
-    <h2>شنطة لولي أبيض</h2>
-    <p>السعر: 350 جنيه</p>
-    <p>المقاس: تسع موبايل</p>
-    <div class="offer">🎁 عرض: شنطتين + طقم إكسسوارات هدية</div>
-  </div>
-  
-  <div class="product">
-    <img src="https://i.imgur.com/tZqPZC9.jpg" alt="شنطة أطفال">
-    <h2>شنطة أطفال كيوت</h2>
-    <p>السعر: 150 جنيه</p>
-    <p>شكل لطيف وخامة ممتازة 🎒</p>
-  </div>
-</section>
+  <img src="banner.jpg" alt="بانر Jana Store" class="banner" />
 
-<footer>
-  <p>للطلب المباشر: <a href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">اضغط هنا</a></p>
-  <p>قناة الواتساب: <a href="https://whatsapp.com/channel/0029Vb5xn07EawdvLKvDHp2d" target="_blank">اضغط للمتابعة</a></p>
-  <p>جروب واتساب للتواصل: <a href="https://chat.whatsapp.com/BnTon5avEFpKaCbTJjJC0y?mode=ac_t" target="_blank">انضم الآن</a></p>
-  <p>📞 للتواصل: 01229612343</p>
-</footer>
+  <section class="product">
+    <h2>شنطة أطفال لولي</h2>
+    <p>شنطة أنيقة للأطفال مصنوعة يدويًا من الخرز، تناسب الهاتف الصغير والمستلزمات البسيطة. مثالية للمناسبات والخروجات! 💫</p>
+    <p><strong>السعر:</strong> 150 جنيه</p>
+    <a class="button" href="https://docs.google.com/forms/d/1Jd2_xyf-JoVn0MKi4bw2QmZWYVYz0W8YD35l-Jf6wLk/viewform" target="_blank">اطلب الآن 📩</a>
+  </section>
+
+  <footer>
+    <div>
+      📱 <strong>التواصل:</strong> 01221810864 - 01229612343<br/>
+      💬 <strong>واتساب:</strong> <a href="https://chat.whatsapp.com/BnTon5avEFpKaCbTJjJC0y?mode=ac_t">انضم للجروب</a> | <a href="https://whatsapp.com/channel/0029Vb5xn07EawdvLKvDHp2d">قناتنا</a><br/>
+      🔗 <strong>فيسبوك:</strong> <a href="https://www.facebook.com/share/16MfkdjTZp/">اضغط هنا</a>
+    </div>
+  </footer>
 
 </body>
 </html>
